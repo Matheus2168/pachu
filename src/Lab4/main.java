@@ -14,7 +14,7 @@ public class main {
 		System.out.println(o.konwertuj("162/(2+1)^4"));
 		
 		Drzewo Tree = new Drzewo();
-        Wezel root = new Wezel(10);
+        Wezel root = new Wezel(15);
         Tree.Root = root;
         root.Lewy = new Wezel(12);
         root.Prawy = new Wezel(40);
